@@ -12,6 +12,7 @@ that are incorrect with respect to the pandas source, but that have no effect on
 checking user code that calls the public API.
 
 ## Use of Generic Types
+########################################################################################################################################
 
 There are other differences that are extensions of the pandas API to assist in type
 checking.  Two key examples are that `Series` and `Interval` are typed as generic types.
